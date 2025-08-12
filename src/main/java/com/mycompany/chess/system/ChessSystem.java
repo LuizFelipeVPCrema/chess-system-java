@@ -5,6 +5,8 @@
 
 package com.mycompany.chess.system;
 
+import boardgame.Position;
+
 /**
  *
  * @author luiz.pereira
@@ -12,6 +14,7 @@ package com.mycompany.chess.system;
 public class ChessSystem {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        Position pos = new Position(3,5);
+        System.out.println(pos);
     }
 }
